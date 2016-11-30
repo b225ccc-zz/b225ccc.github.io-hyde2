@@ -58,7 +58,7 @@ local:
 
 You can use this custom grain like any other grain in your state files with:
 
-~~~
+~~~ jinja
 {% raw %}{% set floating_ip = salt['grains.get']('floating_ip', '') %}{% endraw %}
 ~~~
 
