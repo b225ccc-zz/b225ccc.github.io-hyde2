@@ -6,14 +6,14 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Noise
+tagline:          ''
+description:      ''
+url:              http://b225ccc.github.io
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
+  name:           'Brian Talley'
   url:            https://twitter.com/mdo
 
 paginate:         5
