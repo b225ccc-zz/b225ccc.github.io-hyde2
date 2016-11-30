@@ -40,7 +40,7 @@ Simply drop this script in your custom grains directory (`_grains`) and sync it 
 
 Here's an example of getting the floating IP on a minion:
 
-~~~ sh
+~~~ shell
 root@nv001:~# salt-call grains.get floating_ip
 [INFO    ] Starting new HTTP connection (1): 169.254.169.254
 local:
@@ -49,7 +49,7 @@ local:
 
 On a host with no floating IP:
 
-~~~ sh
+~~~ shell
 root@mesos-slave-02:~# salt-call grains.get floating_ip
 [INFO    ] Starting new HTTP connection (1): 169.254.169.254
 local:
