@@ -46,14 +46,6 @@ listen ironic
   server 10.190.17.1 10.190.17.1:6385 check fall 5 inter 2000 rise 2
 ```
 
-{% highlight %}
-listen ironic
-  bind 10.190.17.2:6385 transparent
-  bind 10.190.17.3:6385 transparent
-  #option httpchk GET /
-  server 10.190.17.1 10.190.17.1:6385 check fall 5 inter 2000 rise 2
-{% endhighlight %}
-
 And restart haproxy:
 
 ``` bash
