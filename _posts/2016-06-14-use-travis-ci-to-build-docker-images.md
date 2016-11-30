@@ -63,7 +63,7 @@ Each successful build, will result in three new tags in Docker hub:
 
 Example:
 
-  ![docker hub screenshot](/_posts/_img/2016-06-14-2.png)
+  ![docker hub screenshot](/_imgs/2016-06-14-2.png)
 
 ---
 
